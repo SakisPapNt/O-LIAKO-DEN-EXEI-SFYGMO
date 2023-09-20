@@ -1,91 +1,269 @@
 body {
-    background-color: floralwhite ;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-.epikef{
-    font-family:fantasy;
-    font-size: larger;
-    }
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
 }
 
-h1 {
-    margin: 0;
+.firstofall{
+  background-color: rgb(103, 59, 5);
+  padding-bottom: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  width: 75px;
+  height: 75px;
+  background-color: #1F2937;
+  margin-top: 0px; 
+  margin-left: 100px;
+}
+
+.header{
+  color: white;
+  margin-bottom: 5px;
+  outline-style:groove;
+}
+
+.left-link{
+  color: white;
+  margin-left: 80px;
+  font-weight: 800;
+}
+
+.right-links{
+  margin-right: 250px;
+}
+
+a:hover{
+  color: beige;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.secondofall{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin: 60px;
+  outline-style: inset;
+}
+
+.image{
+  background-color: gray;
+  color: white;
+  margin-right: 170px;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+.Liako{
+  margin-left: 5px;
+  width:300px;
+  height: 250px;
+}
+
+.btn1{
+  display: flex;
+  background-color: lightblue;
+  border-radius: 8px;
+  padding: 10px;
+  border: solid 1px white;
+  width: 140px;
+  font-style: oblique;
+  flex-direction: row;
+}
+
+.txt{
+padding-left: 5px;
+padding-top: 5px;
+color: white;
+font-weight: 600;
+}
+
+.img{
+  margin-left: 30px;
+  width: 20px;
+  height: 20px;
+}
+
+.btn1:hover{
+  background-color: black;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  color: white;
+}
+
+.subheader{
+  color: white;
+  margin-left: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+  height: 140px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background-image: url(./imgs/goldenscissor.jpg);
 }
 
-.services {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+h2{
+  color: burlywood;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
 }
 
-.wel{
+.item1 {
+  width: 120px;
+  height: 120px;
+  border: 4px solid burlywood;
+  border-radius: 8px;
+  font-style: oblique;
+  background-image: url(./imgs/razor.jpg);
+  background-size: contain;
+}
 
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover{
+  transform: scale(1.06);
+  box-shadow: 0px 0px 3px 3px lightgray;
+}
+
+ .item2 {
+  width: 120px;
+  height: 120px;
+  border: 4px solid burlywood;
+  border-radius: 8px;
+  font-style: oblique;
+  background-image: url(./imgs/andriko_kourema.jpeg);
+  background-size: contain;
+ }
+
+ .item3 {
+  width: 120px;
+  height: 120px;
+  border: 4px solid burlywood;
+  border-radius: 8px;
+  font-style: oblique;
+  background-image: url(./imgs/black_mask.png);
+  background-size: contain;
+ }
+
+ .item4 {
+  width: 120px;
+  height: 120px;
+  border: 4px solid burlywood;
+  border-radius: 8px;
+  font-style: oblique;
+  background-image: url(./imgs/nixia.png);
+  background-size: contain;
+ } 
+
+
+.text{
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 70px;
+}
+
+.third-plate{
+  justify-content: center;
+  background-color: lightgray;
+  margin-top: 80px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: ridge;
+}
+
+.text2{
+  margin-top: 40px;
+
+  font-size: 21px;
+  width: 480px;
+  height: 100px;  
+}
+
+.quote{
+  margin-left: 290px;
+  padding-top: 0px;
+  font-weight: 800;
+  text-align: end;
+}
+
+.fourth-plate{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
-.service {
-    
-    flex: 1;
-    text-align: center;
-    padding: 20px;  
-    background-color: #af6666;
-    color: black;
+.medal-board{
+  background-color: #3882F6;
+  width: 650px;
+  height: 100px;
+  border-radius: 8px;
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-.service h3 {
-    margin: 0;
+.text3{
+  font-size: 17px;
+  font-weight: 800;
 }
 
-.service p {
-    color: #0e0d0d;
+.first-text{
+  display: flex;
+  justify-content: column;
+  flex-direction: column;
 }
 
-.contact {
-    text-align: center;
-    margin-top: 40px;
+.text4{
+  color: lightgray;
 }
 
-.contact p {
-    color: #777;
-    margin: 0;
+.btn{
+  border-radius: 8px;
+  border: solid 2px white;
+  color: white;
+  background-color: #3882F6;
+  width: 90px;
+  height: 32px;
+  margin-left: 40px;
 }
 
-.taftotites{
-    font-size: small;
+.btn:hover{
+  background-color: white;
+  color: aqua;
 }
 
-.img1{
-
-  width: 75%; /* Adjust the width value as desired */
-  height: auto; /* The height will adjust automatically to maintain the image's aspect ratio */
-  margin-left: 100px;
+.imgs{
+  margin-bottom: 5px;
+  margin-right: 1500px;
+  width: 120px;
+  height: 120px;
 }
-
-.img2{
-
-    width: 75%; /* Adjust the width value as desired */
-    height: auto; /* The height will adjust automatically to maintain the image's aspect ratio */
-    margin-left: 100px;
-  }
-
-  .le{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-  }
