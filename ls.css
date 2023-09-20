@@ -19,6 +19,11 @@ img{
   margin-left: 100px;
 }
 
+.img1{
+  width: 15px;
+  height: 15px;
+}
+
 .header{
   color: white;
   margin-bottom: 5px;
@@ -29,6 +34,11 @@ img{
   color: white;
   margin-left: 80px;
   font-weight: 800;
+}
+.center-links{
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
 }
 
 .right-links{
