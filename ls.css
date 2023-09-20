@@ -25,20 +25,26 @@ img{
 }
 
 .header{
-  color: white;
-  margin-bottom: 5px;
+  margin-bottom: 35px;
+  padding-bottom: 15px;
   outline-style:groove;
 }
 
 .left-link{
-  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-left: 80px;
+  padding-bottom: 0px;
   font-weight: 800;
+  background-image: url(./imgs/glbarber.jpg);
+  background-size:cover;
+  border-radius: 50%; 
 }
+
 .center-links{
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
-  gap: 55px;
+  gap: 65px;
 }
 
 .right-links{
@@ -120,7 +126,7 @@ font-weight: 600;
 }
 
 a {
-  color: white;
+  color: darkgoldenrod;
   text-decoration: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: oblique;
